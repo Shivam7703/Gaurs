@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+*{
+    padding: 0; margin: 0;
+}
+p, h5, h3, li{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.bg-para{
+background-image:linear-gradient(rgba(0, 0, 0, 0.461), rgba(0, 0, 0, 0.475)), url(img/banner4.png);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h2, h4{
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+   
+}
+  
+  .swiper-pagination-bullet {
+    height: 11px!important; width: 11px!important;
+    opacity: 1!important;
+    border: 1px solid #73BD1B;
+    background: rgb(255, 255, 255) !important;
+  }
+  .swiper-pagination-bullet-active {
+    background: #73BD1B !important;
+  }
+
