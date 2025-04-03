@@ -23,7 +23,7 @@ const swiper0 = new Swiper('.swiper0', {
 const swiper = new Swiper('.swiper', {
     loop: true,
     autoplay: {
-        delay: 4500,
+        delay: 3000,
     },
      speed: 700,
     slidesPerView: 1,
