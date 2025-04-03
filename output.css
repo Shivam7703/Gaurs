@@ -2048,6 +2048,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(163 121 32 / var(--tw-text-opacity));
 }
+.text-green{
+  color:#73BD1B ;
+}
 .text-\[\#ffffff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
